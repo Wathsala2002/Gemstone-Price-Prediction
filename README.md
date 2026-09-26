@@ -32,7 +32,6 @@ This project focuses on predicting gemstone prices by combining real diamond and
 
 ## Project Structure
 
-```text
 Gem_Stone_Price_Prediction/
 │
 ├── 📂 data/
@@ -51,7 +50,6 @@ Gem_Stone_Price_Prediction/
 ├── 📄 Gem_Stone_Price_Prediction.pdf
 ├── 📄 requirements.txt
 └── 📄 README.md
-
 
 ## How to run
 
