@@ -54,9 +54,10 @@ Gem_Stone_Price_Prediction/
 ## How to run
 
 ### 1. Clone the Repository
-**git clone https://github.com/YOUR_USERNAME/Gem_Stone_Price_Prediction.git
+```
+git clone https://github.com/YOUR_USERNAME/Gem_Stone_Price_Prediction.git
 cd Gem_Stone_Price_Prediction
-**
+```
 ### 2. Install Dependencies
 pip install -r requirements.txt
 
