@@ -1,4 +1,4 @@
-# Gemstone Price Prediction
+# 💎 Gemstone Price Prediction
 
 ## Machine Learning - Group 09 
 Kasun Vishvajith, Isuru Dulakshana, Gayani Wathsala 
@@ -8,12 +8,11 @@ Kasun Vishvajith, Isuru Dulakshana, Gayani Wathsala
 This project focuses on predicting gemstone prices by combining real diamond and synthetic cubic zirconia datasets. The project covers data preprocessing, feature engineering, exploratory data analysis, FAMD, clustering, machine learning, hyperparameter tuning and Explainable AI. Clustering methods were used to investigate whether natural groups existed in the data, while several regression and ensemble models were developed and compared for price prediction. CatBoost with Bayesian optimization achieved the strongest test performance, while feature importance and SHAP analysis identified stone type, carat, and physical dimensions as the main influential factors.
 
 ## Dataset
-
-*Data Sources :	Diamond Sales Dataset + Gemstone Price Prediction Dataset from Kaggle
-*Final Observations	: 80,072 (combination of two datasets)
-*Variables: 12
-*Target Variable :	LogPrice
-
+- **Data Sources:** Diamond Sales Dataset + Gemstone Price Prediction Dataset from Kaggle
+- **Final Observations:** 80,072 (combination of two datasets)
+- **Variables:** 12
+- **Target Variable:** `LogPrice`
+- 
 ### Variable Description
 
 | Variable | Data Type | Description |
@@ -32,6 +31,8 @@ This project focuses on predicting gemstone prices by combining real diamond and
 | **Type** | Qualitative | Type of the stone: Zirconia or Diamond. |
 
 ## Project Structure
+
+```text
 Gem_Stone_Price_Prediction/
 │
 ├── 📂 data/
@@ -52,8 +53,6 @@ Gem_Stone_Price_Prediction/
 └── 📄 README.md
 
 ## How to run
-1. Clone the repositary
-## Installation
 
 ### 1. Clone the Repository
 git clone https://github.com/YOUR_USERNAME/Gem_Stone_Price_Prediction.git
@@ -156,7 +155,7 @@ Bayesian optimization was used to efficiently search for improved hyperparameter
 | HistGradientBoosting | Tuned (Bayesian) | 0.998784 | 0.998654 | 0.006775 | 0.007445 | 1.180706 | 1.252677 |
 
 #### Reduced vs Full Models 
-Feature importance showed that Cut, Depth, and Table had relatively low importance. Therefore a reduced model was tested by removing these variable
+Feature importance showed that Cut, Depth, and Table had relatively low importance. Therefore a reduced model was tested by removing these variables and finally we got the CatBoost full model as the optimal best model for predicting price of gemstones.
 
 | **Model** | **Test R²** | **Test MSE** | **Test MAPE** |
 |---|---:|---:|---:|
@@ -164,29 +163,9 @@ Feature importance showed that Cut, Depth, and Table had relatively low importan
 | **Reduced CatBoost** | 0.998987 | 0.005602 | 0.9923 |
 | **Reduced XGBoost** | 0.998764 | 0.006835 | 1.1618 |
 
-## Requirements 
+## Requirements
 
-### 📚 Main Libraries
-
-- **pandas**
-- **numpy**
-- **scipy**
-- **statsmodels**
-- **matplotlib**
-- **scikit-learn**
-- **xgboost**
-- **catboost**
-- **optuna**
-- **shap**
-- **prince**
-- **umap-learn**
-- **kmodes**
-- **gower**
-- **scikit-posthocs**
-- **joblib**
-- **tqdm**
-- **jupyter**
-- **ipykernel**
+See [`requirements.txt`](requirements.txt). Main libraries: `pandas`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `scikit-learn`, `xgboost`, `catboost`, `optuna`, `shap`, `prince`, `umap-learn`, `kmodes`, `gower`, `scikit-posthocs`, `joblib`, `tqdm`, `jupyter`, `ipykernel`.
 
 
 
