@@ -12,7 +12,7 @@ This project focuses on predicting gemstone prices by combining real diamond and
 - **Final Observations:** 80,072 (combination of two datasets)
 - **Variables:** 12
 - **Target Variable:** `LogPrice`
-- 
+
 ### Variable Description
 
 | Variable | Data Type | Description |
@@ -51,6 +51,7 @@ Gem_Stone_Price_Prediction/
 ├── 📄 Gem_Stone_Price_Prediction.pdf
 ├── 📄 requirements.txt
 └── 📄 README.md
+
 
 ## How to run
 
