@@ -54,9 +54,9 @@ Gem_Stone_Price_Prediction/
 ## How to run
 
 ### 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/Gem_Stone_Price_Prediction.git
+**git clone https://github.com/YOUR_USERNAME/Gem_Stone_Price_Prediction.git
 cd Gem_Stone_Price_Prediction
-
+**
 ### 2. Install Dependencies
 pip install -r requirements.txt
 
@@ -83,23 +83,6 @@ Open the notebooks in Google Colab and run the cells in order. The required data
 A new Type variable was created to distinguish between,
 * Diamond
 * Zirconia
-
-### Variable Description
-
-| Variable | Data Type | Description |
-|---|---|---|
-| **LogPrice** | Quantitative | Target variable; natural logarithm transformation of diamond prices. |
-| **Price** | Quantitative | Price of the cubic zirconia/real diamond. |
-| **X** | Quantitative | Length of the cubic zirconia/real diamond in mm. |
-| **Y** | Quantitative | Width of the cubic zirconia/real diamond in mm. |
-| **Z** | Quantitative | Height of the cubic zirconia/real diamond in mm. |
-| **Table** | Quantitative | Percentage representing how large the top surface of the stone is compared to its total width. |
-| **Depth** | Quantitative | Height of the cubic zirconia/real diamond, measured from the culet to the table, divided by its average girdle diameter. |
-| **Cut** | Qualitative | Describes the cut quality of the cubic zirconia/real diamond. |
-| **Color** | Qualitative | Color of the cubic zirconia/real diamond, with D being the best and J the worst. |
-| **Clarity** | Qualitative | Refers to the absence of inclusions and blemishes. The levels range from FL (flawless) to I3 (level 3 inclusions), ordered from best to worst. |
-| **Carat** | Quantitative | Carat weight of the cubic zirconia/real diamond. |
-| **Type** | Qualitative | Type of the stone: Zirconia or Diamond. |
 
 ### 3. Cluster Analysis
 Cluster analysis confirmed no clear natural cluster structure was identified in the dataset.
