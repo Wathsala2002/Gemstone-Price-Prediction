@@ -59,7 +59,9 @@ git clone https://github.com/YOUR_USERNAME/Gem_Stone_Price_Prediction.git
 cd Gem_Stone_Price_Prediction
 ```
 ### 2. Install Dependencies
+```
 pip install -r requirements.txt
+```
 
 ### 3. Run the Notebooks
 The project contains four Jupyter notebooks that should be run in the following order,
